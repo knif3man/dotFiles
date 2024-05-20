@@ -1,0 +1,7 @@
+#!/bin/env bash
+
+choice=$(printf "Перезагрузка\nВыключение" | rofi -dmenu)
+case "$choice" in
+  Перезагрузка) systemctl reboot ;;
+  Выключение) systemctl poweroff ;;
+esac
