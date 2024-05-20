@@ -1,0 +1,7 @@
+@theme "/home/knif3man/.local/share/rofi/themes/nord.rasi"
+
+configuration {
+	display-drun: "Apps";
+	drun-display-format: "{icon} {name}";
+	show-icons: true;
+}
