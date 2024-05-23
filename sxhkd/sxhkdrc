@@ -11,13 +11,13 @@ super + e
 
 super + d
 	rofi -show drun -show-icons
-super + tab
+alt+ Tab
 	rofi -show window -show-icons
 
 
 # program launcher
 super + @space
-	battery_notify
+	chromium
 
 # make sxhkd reload its configuration files:
 super + Escape

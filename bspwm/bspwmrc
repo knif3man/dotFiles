@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V 
+bspc monitor -d 1 2 3 4 5 
 bspc config border_width         2
 bspc config window_gap          12
 
@@ -28,4 +28,12 @@ numlockx &
 
 
 # Правила для окон
-#bspc rule -a chromium desktop='^2'
+bspc rule -a discord desktop=3 
+bspc rule -a TelegramDesktop desktop=3
+bspc rule -a Chromium desktop=2 
+bspc rule -a steam desktop=1  follow=on
+bspc rule -a scrcpy state=floating
+bspc rule -a Pavucontrol state=floating
+bspc rule -a Nm-connection-editor state=floating
+bspc rule -a yad-calendar border=off
+
